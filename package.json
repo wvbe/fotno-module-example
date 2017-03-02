@@ -1,0 +1,7 @@
+{
+  "name": "fotno-module-example",
+  "description": "An example fotno module intended as a tutorial/boilerplate for writing your own fotno module.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {}
+}
