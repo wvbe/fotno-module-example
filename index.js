@@ -11,7 +11,8 @@ module.exports = (fotno) => {
 		{ favouriteColor: 'blue' },
 
 		// The serialization callback may use the current configuration value, or serialize data from any other context.
-		//   If the callback returns null, the configuration value is not saved/removed from .fotnorc
+		//   If the callback returns null, the configuration value is not saved/removed from .fotnorc.
+		// If no serialization callback is given, the current configuration value is simply JSON serialized.
 		(value) => {
 			return value.favouriteColor === 'red'
 				? null
